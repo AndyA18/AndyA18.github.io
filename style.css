@@ -46,4 +46,18 @@ footer {
     padding-top: 250px;
     text-align: center;
     font-size: 12px;
+
+    color: orange;
 }
+
+.foot{
+    color: black;
+    font-size: 15px;
+}
+
+/**
+The spesific class for footer won over the element selector as it has a higher specificity score since 
+the class can be assigned to spesific footers, while elements are for all of the same type of item. This 
+resulted in the footer being black and 15px instead of orange and 12px if another footer not in the class
+was created.
+/
