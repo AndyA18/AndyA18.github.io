@@ -1,0 +1,3 @@
+1: The website is converted into a IP address, and travels to the closest node of where this IP address is found. This request is then recieved by Github who figures out which repository is being accessed and gets any of the files needed, which is then sent back to the end user.
+
+2: A docker container is different from Github pages as a docker container is completely controlled by the individual which alows for it to be completelty built from the ground up with software and resources determined by the creator of it. This is different from Github pages which already has a predetermined setup with minimal amount of leway to change certain aspects, serving mainly as a way to access certain files without any costimization of how it does it.
